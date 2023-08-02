@@ -1,0 +1,75 @@
+{
+    "navi" :[
+        {
+            "cls" : "px-3 about",
+            "href" : "about",
+            "txt" : "브랜드소개"
+        },
+        {
+            "cls" : "px-3 pe-md-0 event",
+            "href" : "event",
+            "txt" : "구독이벤트"
+        }
+    ],
+    "catswiper" :[
+        {
+            "imgsrc" : "https://naturalcore.co.kr/web/upload/category/shop1_213_top_287138.jpg",
+            "bgcolor" : "#fbf8f7"
+        },
+        {
+            "imgsrc" : "https://naturalcore.co.kr/web/upload/category/shop1_222_top_688232.jpg",
+            "bgcolor" : "#ededed"
+        },
+        {
+            "imgsrc" : "https://naturalcore.co.kr/web/upload/category/shop1_215_top_506225.jpg",
+            "bgcolor" : "#f6a7b0"
+        }
+    ],
+    "catfood" : [
+        {
+            "imgsrc" : "/img/products/pro0.png",
+            "txt" : { 
+                "pronm" : "밥이보약 CAT 걱정없는 헤어볼" ,
+                "proprice" : "22400",
+                "spronm" : "전연령 헤어볼 맞춤 솔루션"
+              },
+            "bgcolor" : "#c9e39d",
+            "youtubeinfo" :  {
+                "youtubeid" : "4yxGYBgA2PM",
+                "start" :"",
+                "youdomid" : "youtude1"
+            }
+        },
+        {
+            "imgsrc" : "/img/products/pro1.png",
+            "txt" : { 
+                      "pronm" : "밥이보약 CAT 빛나는 피모" ,
+                      "proprice" : "23800",
+                      "spronm" : "전연령 빛나는 피모 맞춤 솔루션"
+                    },
+            "bgcolor" : "#775de2",
+            "youtubeinfo" :{
+                "youtubeid" : "Qw58cCZnf2E",
+                "start" :"",
+                "youdomid" : "youtude2"
+            }
+        },
+        {
+            "imgsrc" : "/img/products/pro2.png",
+            "txt" : { 
+                "pronm" : "밥이보약 CAT NO스트레스" ,
+                "proprice" : "27800",
+                "spronm" : "전연령 NO스트레스 맞춤 솔루션"
+              },
+            "bgcolor" : "#eebd4c",
+            "youtubeinfo" :  {
+                "youtubeid" : "tKjkoJez6eo",
+                "start" :"",
+                "youdomid" : "youtude3"
+            }
+        }
+    ],
+    "banners" : {
+        "imgsrc" : "/img/products/ban.jpg"
+    }
+}

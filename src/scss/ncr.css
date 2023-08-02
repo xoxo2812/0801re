@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-family: "GmarketSansMedium", serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Humanbumsuk";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cafe24Ssurround";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.vh-100 {
+  height: 100vh;
+}
+
+#hd li {
+  list-style-type: none;
+}
+
+#nahd.scrolldown {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#nahd.scrolldown .navbar-brand img {
+  height: 2.5rem;
+}
+#nahd.scrolldown .nav-link {
+  font-size: 22px;
+}
+
+#imgs img {
+  height: 53px;
+  margin: 10px;
+}
+
+#gnb {
+  padding: 30px;
+}
+#gnb a {
+  text-decoration-line: none;
+  color: rgb(163, 26, 222);
+  font-family: "Cafe24Ssurround";
+  font-size: 22px;
+}
+#gnb li {
+  padding-right: 50px;
+}
+
+#sns i {
+  font-size: 50px;
+  color: black;
+}
+
+#slide main {
+  padding: 200px;
+}
+#slide body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#slide .swiper {
+  width: 100%;
+  height: 100%;
+}
+#slide .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #4face2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slide .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.navbar-brand img {
+  height: 4rem;
+}
+
+.active a {
+  color: #4face2;
+}
+
+.about.active a {
+  color: #f8a100;
+}
+
+#basic-navbar-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#basic-navbar-nav ul a {
+  font-size: 26px;
+  font-family: "Cafe24Ssurround";
+  letter-spacing: -0.085em;
+}
+
+#youtube {
+  position: relative;
+  height: 0;
+  padding-top: 56%;
+  padding-bottom: 37%;
+}
+#youtube iframe {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+}
+#youtube div img {
+  height: 660px;
+  width: 100%;
+}
+
+#event .events {
+  justify-content: center;
+  align-items: center;
+  font-family: "Cafe24Ssurround";
+  color: #4face2;
+}
+#event .cfs {
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#event .cats {
+  font-size: 20px;
+  text-align: center;
+}
+#event .desicription {
+  padding-top: 25px;
+}
+#event .desicription strong {
+  font-family: "Noto Sans KR";
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+#event .desicription .p1 {
+  font-family: "Noto Sans KR";
+  font-size: 14px;
+  font-weight: 300;
+  color: #1c1c1c;
+}
+#event .desicription .price {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 300;
+  color: #333333;
+  font-weight: bold;
+}
+
+.youtubebox {
+  position: relative;
+  height: 0;
+  padding-top: 54%;
+}
+.youtubebox iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+#about .swiper-slide {
+  min-height: 600px;
+  background-repeat: no-repeat;
+}
+#about .catslide0 {
+  background-size: 100% auto;
+  background-position: center;
+}
+#about .catslide1 {
+  background-size: 100% auto;
+  background-position: center bottom;
+}
+#about .catslide2 {
+  background-size: 100% auto;
+  background-position: center bottom;
+}
+#about .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: #f46716;
+}
+
+#ad h2 {
+  font-family: "Cafe24Ssurround";
+  color: #4face2;
+}
+
+.faq {
+  font-family: "Noto Sans KR";
+  justify-content: center;
+  background-color: white;
+}
+.faq button {
+  border: none;
+  margin: auto;
+  display: block;
+  border-bottom: 1px solid #b2b2b2;
+  background-color: white;
+}
+.faq p {
+  justify-content: center;
+  display: flex;
+  background-color: #f5f5f5;
+}
+.faq h2 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
