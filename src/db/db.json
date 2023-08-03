@@ -27,7 +27,7 @@
     ],
     "catfood" : [
         {
-            "imgsrc" : "https://xoxo2812.github.io/0801re/img/products/pro0.png",
+            "imgsrc" : "./img/products/pro0.png",
             "txt" : { 
                 "pronm" : "밥이보약 CAT 걱정없는 헤어볼" ,
                 "proprice" : "22400",
