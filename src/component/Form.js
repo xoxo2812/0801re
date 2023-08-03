@@ -1,14 +1,13 @@
 import React from 'react'
-import { Container } from 'react-bootstrap';
 import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 
 export function Form(props) {
     
     return (
         <>
-        <Container className='py-5'>
+        <div className='py-5 container-lg'>
             <Accordion className='faq px-5 py-5'>
-                <h2>밥이보약 FAQ</h2>
+                <h2 className='mb-4'>가장 많이 물어보는 질문과 그에 답!</h2>
                 <AccordionItem header="밥이보약을 전연령 고양이가 먹어도 되나요?">
                     <p>
                         밥이보약은 여러 종류가 있으며 빛나는 피모, 알맞은 체중, NO 스트레스,
@@ -39,7 +38,7 @@ export function Form(props) {
                 </AccordionItem>
             </Accordion>
             
-        </Container>
+        </div>
         <div className='py-3 my-5 text-center' style={{backgroundColor : "#dce896"}}>
 
         <img src={props.dbpath.imgsrc} alt="배너" className='img-fluid mx-auto d-block' style={{borderRadius : `15px`}}/>

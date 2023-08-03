@@ -21,7 +21,7 @@ const Hd = (props) => {
   
       <Navbar   expand="lg" id="nahd" className={isScrolled ? 'fixed-top scrolldown' : 'fixed-top'} >
         <div className="container">
-        <Navbar.Brand href="#home" className='d-block p-0 m-0'><img src={`./img/logo/${ isScrolled ? 'logo' : 'logo_all' }.png`} alt='portfolio' className='img-fluid' /></Navbar.Brand>
+        <Navbar.Brand href="#home" className='d-block p-0 m-0'><img src={`https://xoxo2812.github.io/0801re/img/logo/${ isScrolled ? 'logo' : 'logo_all' }.png`} alt='portfolio' className='img-fluid' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='flex-grow-0 '>
           <Scrollspy
