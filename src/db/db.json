@@ -27,7 +27,7 @@
     ],
     "catfood" : [
         {
-            "imgsrc" : "/img/products/pro0.png",
+            "imgsrc" : "./img/products/pro0.png",
             "txt" : { 
                 "pronm" : "밥이보약 CAT 걱정없는 헤어볼" ,
                 "proprice" : "22400",
@@ -41,7 +41,7 @@
             }
         },
         {
-            "imgsrc" : "/img/products/pro1.png",
+            "imgsrc" : "./img/products/pro1.png",
             "txt" : { 
                       "pronm" : "밥이보약 CAT 빛나는 피모" ,
                       "proprice" : "23800",
@@ -55,7 +55,7 @@
             }
         },
         {
-            "imgsrc" : "/img/products/pro2.png",
+            "imgsrc" : "./img/products/pro2.png",
             "txt" : { 
                 "pronm" : "밥이보약 CAT NO스트레스" ,
                 "proprice" : "27800",
@@ -70,6 +70,6 @@
         }
     ],
     "banners" : {
-        "imgsrc" : "/img/products/ban.jpg"
+        "imgsrc" : "./img/products/ban.jpg"
     }
 }
