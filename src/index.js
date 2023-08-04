@@ -7,6 +7,7 @@ import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import'./scss/ncr.scss'; //scss컴포넌트 import
 import { Events } from './component/Events'
 import { Form } from './component/Form'
+import  Forms  from './component/Forms'
 import Hd from './layout/Hd'
 import Cat from './component/Cat'
 
@@ -21,6 +22,7 @@ root.render(
       <Cat dbpath={db.catswiper}></Cat>
       <Events dbpath={db}></Events>
       <Form dbpath={db.banners}></Form>
+      <Forms></Forms>
     </>
 );
 
