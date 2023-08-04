@@ -35,8 +35,8 @@ const Forms = () => {
   return (
     <div>
       <section
-        class="p-5 w-100"
-        style={{ backgroundColor: "#eee", borderRadius: ".5rem .5rem 0 0" }}
+        class="p-5 w-100 container"
+       
       >
         <div class="row">
           <div class="col-12">
