@@ -26,7 +26,7 @@ const Forms = () => {
     validationSchema: Formss,
     onSubmit: (values, action) => {
       alert(
-        "Form is valid now!. You can make a call to API inside onSubmit function"
+        "구독이벤트 신청이 완료되었습니다!"
       );
       action.resetForm();
     },
@@ -44,12 +44,12 @@ const Forms = () => {
               <div class="card-body p-md-5">
                 <div class="row justify-content-center">
                   <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-                    <p class="text-center h1 fw-bold mb-5 mt-4">Sign up</p>
+                    <p class="text-center h1 fw-bold mb-5 mt-4">구독 이벤트</p>
                     <form onSubmit={handleSubmit}>
                       <div className="row">
                         <div className="col text-left">
                           <label htmlFor="first" className="form-label">
-                            First Name
+                            성
                           </label>
                           <input
                             id="first"
@@ -67,7 +67,7 @@ const Forms = () => {
                         </div>
                         <div className="col text-left">
                           <label htmlFor="last`" className="form-label">
-                            Last Name
+                            이름
                           </label>
                           <input
                             id="last"
@@ -87,7 +87,7 @@ const Forms = () => {
                       <div className="row mt-3">
                         <div className="col text-left">
                           <label htmlFor="first" className="form-label">
-                            Email
+                            이메일
                           </label>
                           <input
                             id="email"
@@ -107,7 +107,7 @@ const Forms = () => {
                       <div className="row mt-3">
                         <div className="col text-left">
                           <label htmlFor="first" className="form-label">
-                            Password
+                            비밀번호
                           </label>
                           <input
                             id="password"
@@ -128,7 +128,7 @@ const Forms = () => {
                       <div className="row mt-3">
                         <div className="col text-left">
                           <label htmlFor="first" className="form-label">
-                            Confirm Password
+                            비밀번호 확인
                           </label>
                           <input
                             id="repassword"
@@ -153,7 +153,7 @@ const Forms = () => {
                             size="sm"
                             onClick={resetForm}
                           >
-                            Clear
+                            취소
                           </Button>
 
                           <Button
@@ -161,14 +161,8 @@ const Forms = () => {
                             size="sm"
                             onClick={handleSubmit}
                           >
-                            Register
+                            등록
                           </Button>
-                        </div>
-                      </div>
-                      <div className="row mt-3">
-                        <br />
-                        <div className="col text-right">
-                          Already have an account? <a href="/">Sign in</a>
                         </div>
                       </div>
                     </form>
