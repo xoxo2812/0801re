@@ -2,7 +2,7 @@
     "navi" :[
         {
             "cls" : "px-3 about",
-            "href" : "about",
+            "href" : "abouts",
             "txt" : "브랜드소개"
         },
         {
