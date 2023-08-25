@@ -34,10 +34,7 @@ const Forms = () => {
 
   return (
     <div>
-      <section
-        class="p-5 w-100 container"
-       
-      >
+      <section id="events" class="p-5 w-100 container">
         <div class="row">
           <div class="col-12">
             <div class="card text-black" style={{ border: 0 }}>
