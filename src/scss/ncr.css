@@ -144,37 +144,37 @@
   width: 100%;
 }
 
-#event .events {
+#abouts .events {
   justify-content: center;
   align-items: center;
   font-family: "Cafe24Ssurround";
   color: #4face2;
 }
-#event .cfs {
+#abouts .cfs {
   width: 100%;
   box-sizing: border-box;
   vertical-align: middle;
 }
-#event .cats {
+#abouts .cats {
   font-size: 20px;
   text-align: center;
 }
-#event .desicription {
+#abouts .desicription {
   padding-top: 25px;
 }
-#event .desicription strong {
+#abouts .desicription strong {
   font-family: "Noto Sans KR";
   font-weight: 400;
   font-size: 20px;
   color: #000000;
 }
-#event .desicription .p1 {
+#abouts .desicription .p1 {
   font-family: "Noto Sans KR";
   font-size: 14px;
   font-weight: 300;
   color: #1c1c1c;
 }
-#event .desicription .price {
+#abouts .desicription .price {
   font-family: "Roboto";
   font-size: 20px;
   font-weight: 300;

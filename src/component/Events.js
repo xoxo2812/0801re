@@ -3,8 +3,8 @@ import  Youtube  from './Youtube'
 
 export function Events(props) {
     return (
-        <section id="event" className=" py-5 container">
-          <h2 id='abouts' className='events d-flex mt-5 px-5'>인기상품 & 동영상 후기</h2>
+        <section id="abouts" className=" py-5 container">
+          <h2 className='events d-flex mt-5 px-5'>인기상품 & 동영상 후기</h2>
           <div>
             <ul className='row'>
                 {
