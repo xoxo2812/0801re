@@ -8,8 +8,8 @@ const initialValues = {
   first: "",
   last: "",
   email: "",
-  repassword: "",
-  password: "",
+  text: "",
+  phone: "",
 };
 
 const Forms = () => {
@@ -107,20 +107,20 @@ const Forms = () => {
                       <div className="row mt-3">
                         <div className="col text-left">
                           <label htmlFor="first" className="form-label">
-                            비밀번호
+                            연락처
                           </label>
                           <input
-                            id="password"
-                            name="password"
+                            id="phone"
+                            name="phone"
                             className="form-control"
-                            value={values.password}
+                            value={values.phone}
                             onChange={handleChange}
                             onBlur={handleBlur}
-                            type="password"
+                            type="phone"
                           />
-                          {errors.password && touched.password ? (
+                          {errors.phone && touched.phone ? (
                             <small className="text-danger mt-1">
-                              {errors.password}
+                              {errors.phone}
                             </small>
                           ) : null}
                         </div>
@@ -128,20 +128,20 @@ const Forms = () => {
                       <div className="row mt-3">
                         <div className="col text-left">
                           <label htmlFor="first" className="form-label">
-                            비밀번호 확인
+                            원하는 사료 적어두기
                           </label>
                           <input
-                            id="repassword"
-                            name="repassword"
+                            id="text"
+                            name="text"
                             className="form-control"
-                            value={values.repassword}
+                            value={values.text}
                             onChange={handleChange}
                             onBlur={handleBlur}
-                            type="password"
+                            type="text"
                           />
-                          {errors.repassword && touched.repassword ? (
+                          {errors.text && touched.text ? (
                             <small className="text-danger mt-1">
-                              {errors.repassword}
+                              {errors.text}
                             </small>
                           ) : null}
                         </div>

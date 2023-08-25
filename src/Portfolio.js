@@ -1,5 +1,4 @@
 import { Events } from './component/Events'
-import { Youtube } from './component/Youtube'
 
 const Portfolio = (props) =>{
     return(

@@ -34,7 +34,6 @@ const Hd = (props) => {
                       return(
                         <li className={v.cls}><Nav.Link href={"#"+v.href}>{v.txt}</Nav.Link></li> 
                       )
-
                     })
                    }        
           </Scrollspy>
